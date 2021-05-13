@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.panel {
+    background: beige;
+}
+
+#result {
+    height: 40px;
+    width: 150px;
+    background: #8D8D81;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.btn {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list-enter-active,
+.list-leave-active {
+    transition: all 1s;
+}
+
+.list-enter,
+.list-leave-to
+/* .list-leave-active below version 2.1.8 */
+
+{
+    opacity: 0;
+    transform: translateY(30px);
+}
